@@ -1,5 +1,8 @@
 function minMax(arr) {
-    return [0, 0]; // fix me!
+    let smallestNum = Math.min(...arr);
+    let highestNum = Math.max(...arr);
+    let myArr = [smallestNum, highestNum]
+    return myArr;
 }
 
 console.log(minMax([1, 2, 3, 4, 5])); // [1, 5]
