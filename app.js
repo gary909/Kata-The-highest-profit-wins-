@@ -1,7 +1,7 @@
 function minMax(arr) {
     let smallestNum = Math.min(...arr);
     let highestNum = Math.max(...arr);
-    let myArr = [smallestNum, highestNum]
+    let myArr = [smallestNum, highestNum];
     return myArr;
 }
 
